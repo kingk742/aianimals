@@ -1,7 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Animals - A Fun Adventure!</title>
+    <style>
+        /* Reset default styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-<h1></h1>hello world</h1>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background: linear-gradient(120deg, #f3e7ff, #e7f0ff);
+            color: #333;
+        }
 
-<p>this is a paragraph</p>
+        header {
+            background-color: #6c5ce7;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            margin-bottom: 2rem;
+        }
 
-<a href="https://www.google.com">google</a>
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .animal-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            padding: 2rem 0;
+        }
+
+        .animal-card {
+            background: white;
+            border-radius: 15px;
+            padding: 1.5rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .animal-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .animal-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 1rem;
+        }
+
+        .animal-card h2 {
+            color: #6c5ce7;
+            margin-bottom: 0.5rem;
+        }
+
+        .fun-fact {
+            background: #f0f0f0;
+            padding: 1rem;
+            border-radius: 8px;
+            margin-top: 1rem;
+            font-style: italic;
+        }
+
+        footer {
+            background-color: #6c5ce7;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+
+            .animal-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🤖 AI Animals 🦁</h1>
+        <p>Discover amazing animals created by artificial intelligence!</p>
+    </header>
+
+    <div class="container">
+        <div class="animal-grid">
+            <div class="animal-card">
+                <img src="https://source.unsplash.com/random/400x300/?robot,lion" alt="AI Lion">
+                <h2>Robo-Lion</h2>
+                <p>Meet our majestic AI-powered lion! With circuits for whiskers and solar-powered mane, this mechanical marvel roams the digital savanna.</p>
+                <div class="fun-fact">
+                    Fun fact: Our Robo-Lion can process over 1,000 different animal sounds!
+                </div>
+            </div>
+
+            <div class="animal-card">
+                <img src="https://source.unsplash.com/random/400x300/?robot,penguin" alt="AI Penguin">
+                <h2>Cyber-Penguin</h2>
+                <p>The coolest penguin you'll ever meet! This digital bird combines the grace of Antarctic wildlife with advanced AI capabilities.</p>
+                <div class="fun-fact">
+                    Fun fact: Cyber-Penguin can swim through data streams at light speed!
+                </div>
+            </div>
+
+            <div class="animal-card">
+                <img src="https://source.unsplash.com/random/400x300/?robot,butterfly" alt="AI Butterfly">
+                <h2>Digital Butterfly</h2>
+                <p>Watch in wonder as this AI butterfly flutters through cyberspace, spreading digital pollen and processing data.</p>
+                <div class="fun-fact">
+                    Fun fact: Its wings display different patterns based on weather data!
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Created with ❤️ and AI • 2024</p>
+    </footer>
+</body>
+</html>
 
